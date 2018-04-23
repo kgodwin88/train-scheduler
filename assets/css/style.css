@@ -1,0 +1,22 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.jumbotron{
+    background-image: url(../images/train.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.card{
+    margin-bottom: 15px;
+}
+.card-header{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+h1{
+    font-size: 75px;
+}
