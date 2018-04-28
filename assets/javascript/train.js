@@ -43,7 +43,7 @@ $(document).ready(function(){
             
         };
         database.ref().push(newTrain);
-        $("#employeeForm")[0].reset();
+        $("#trainForm")[0].reset();
     }
     });
     database.ref().on("child_added", function(snapshot){
