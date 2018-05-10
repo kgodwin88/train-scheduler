@@ -17,7 +17,7 @@ $(document).ready(function(){
         event.preventDefault();
         var name = $("#name").val().trim();
         var destination = $("#destination").val().trim();
-        var firstTrain = moment($("#firstTrain").val().trim(), "HH:mm").format("hh:mm");
+        var firstTrain = moment($("#firstTrain").val().trim(), "HH:mm").format("HH:mm");
         var frequency = $("#frequency").val().trim();
         console.log(Number.isInteger(parseInt(frequency)));
         console.log(firstTrain)
